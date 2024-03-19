@@ -1,21 +1,20 @@
 /**
- * Clase PizzaCarnesFrias que extiende a la clase Pizza y es una
+ * Clase PizzaItaliana que extiende a la clase Pizza y es una
  * representación de una pizza especifica. Cuenta unicamente con su
  * constructor, que sobreescribe los atributos de su clase padre.
  * 
  * @Extends Pizza
  */
-public class PizzaCarnesFrias extends Pizza {
-
+public class PizzaItaliana extends Pizza {
     /**
-     * Constructor de la clase PizzaCarnesfrias, lo único que
+     * Constructor de la clase PizzaItaliana, lo único que
      * hace es poner nuevos valores a los de su clase padre.
      * 
-     * @param pizza la pizza Carnes Frias.
+     * @param pizza la pizza Italiana.
      */
-    public PizzaCarnesFrias(Pizza pizza) {
+    public PizzaItaliana(Pizza pizza) {
         super(pizza);
-        super.precio = 120.50;
+        super.precio = 210.00;
         super.queso = "Manchego";
         super.carne = "Salchicha y Jamón";
         super.masa = "Masa Delgada";
